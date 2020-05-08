@@ -1,26 +1,58 @@
 /*
 --- MY COLOR PALETTE ---
-#faf4ff LIGHT GREY
-#f3c623 YELLOW
-#844685 PURPLE
+#ffbe0b db
+#79C5D3 framework
+#bce784 language
 
-link to palette: https://colorhunt.co/palette/178346
 
 
 */
 
 td {
-    height: 60px;
-    width: 60px;
+    height: 5rem;
+    width: 28rem;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+    
 }
+
+td:hover {
+    transform: scale(2);
+    font-size: medium;
+}
+
 
 .table {
     display: table;
-    margin-top: 20rem;
+    margin-top: 10rem;
     border-collapse: separate;
     border-spacing: 5px;
+    text-align: center;
 }
 
+.frameWork {
+    background: #79C5D3 !important;
+}
+.frameWork:hover {
+    background: rgba(89, 155, 167, 0.8) !important;
+    z-index: 1 !important;
+}
+
+.lang {
+    background: #bce784 !important;
+}
+.lang:hover {
+    background: rgb(188, 231, 132, 0.8) !important;
+}
+
+.db {
+    background: #ffbe0b !important;
+}
+
+.db:hover {
+    background: rgb(255, 190, 11, 0.8) !important;
+}
 
 
 
