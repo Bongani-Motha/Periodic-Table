@@ -8,3 +8,23 @@ link to palette: https://colorhunt.co/palette/178346
 
 
 */
+
+td {
+    height: 60px;
+    width: 60px;
+}
+
+.table {
+    display: table;
+    margin-top: 20rem;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+
+
+
+
+
+
+
