@@ -21,7 +21,12 @@ td:hover {
     transform: scale(2);
     font-size: medium;
 }
-
+/* 
+-- EMPTY CELLS ON HOVER --
+*/
+td.no-scale:hover {
+    transform: none;
+}
 
 .table {
     display: table;
