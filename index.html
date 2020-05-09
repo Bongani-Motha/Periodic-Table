@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/toggler.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,14 +14,45 @@
             <!--FIRST ROW-->
             <tr>
                 <td class="bg-info frameWork pt-4 pt-">React.js</td>
-                <td colspan="8" class="no-scale"></td>
+                <td colspan="8" class="no-scale"><h2>Periodic Table of Technologies</h2></td>
                 <td class="bg-warning db pt-4">Redis</td>
             </tr>
             <!-- SECOND ROW -->
             <tr>
                 <td class="bg-info frameWork pt-4">Vue.js</td>
                 <td class="bg-info frameWork pt-4">Express.js</td>
-                <td colspan="6" class="no-scale"></td>
+                <td colspan="6" class="no-scale">
+                    <!-- FRAMEWORKS TOGGLE-->
+                    <span class="toggler">
+                        <span>
+                            <label class="switch">
+                                <input class="switch-input frameWork" type="checkbox" />
+                                <span class="switch-label" data-on="On" data-off="framework"></span> 
+                                <span class="switch-handle"></span> 
+                            </label>
+                        </span>
+                    </span>
+                    <!-- LANGUAGES TOGGLE-->
+                    <span class="toggler">
+                        <span>
+                            <label class="switch">
+                                <input class="switch-input lang" type="checkbox" />
+                                <span class="switch-label" data-on="On" data-off="Languages"></span> 
+                                <span class="switch-handle"></span> 
+                            </label>
+                        </span>
+                    </span>
+                    <!-- DATABASES TOGGLE-->
+                    <span class="toggler">
+                        <span>
+                            <label class="switch">
+                                <input class="switch-input db" type="checkbox" />
+                                <span class="switch-label" data-on="On" data-off="DATABASES"></span> 
+                                <span class="switch-handle"></span> 
+                            </label>
+                        </span>
+                    </span>
+                </td>
                 <td class="bg-warning db pt-4">Elasticsearch</td>
                 <td class="bg-warning db pt-4">Firebase</td>
             </tr>
@@ -32,7 +64,7 @@
                 <td colspan="4" class="no-scale"></td>
                 <td class="lang pt-4">Rust</td>
                 <td class="bg-warning db pt-4">PostgreSQL</td>
-                <td class="bg-warning db pt-4">Mongodb pt-4</td>
+                <td class="bg-warning db pt-4">Mongodb</td>
             </tr>
             <!-- FOURTH FOW -->
             <tr>
@@ -44,7 +76,7 @@
                 <td class="lang pt-4">WebAssembly</td>
                 <td class="lang pt-4">Swift</td>
                 <td class="lang pt-4">Clojure</td>
-                <td class="bg-warning db pt-4">Mariadb pt-4</td>
+                <td class="bg-warning db pt-4">Mariadb</td>
                 <td class="bg-warning db pt-4">MS SQL Server</td>
             </tr>
 
@@ -72,15 +104,15 @@
                 <td class="lang pt-4">C++</td>
                 <td class="lang pt-4">R</td>
                 <td class="bg-warning db pt-4">SQLite</td>
-                <td class="bg-warning db pt-4">Dynamodb pt-4</td>
+                <td class="bg-warning db pt-4">Dynamodb</td>
                 <td class="bg-warning db pt-4">MySQL</td>
             </tr>
 
             <!-- 7TH ROW -->
             <tr>
-                <td colspan="2"></td>
+                <td colspan="2" class="no-scale"></td>
                 <td class="lang pt-4">Ruby</td>
-                <td class="lang pt-4">Erlang pt-4</td>
+                <td class="lang pt-4">Erlang</td>
                 <td class="lang pt-4">PHP</td>
                 <td class="lang pt-4">C</td>
                 <td class="lang pt-4">Assembly</td>
