@@ -21,9 +21,12 @@ td:hover {
     transform: scale(1.7);
     font-size: medium;
 }
+
+
 /* 
 -- EMPTY CELLS ON HOVER --
 */
+
 td.no-scale:hover {
     transform: none;
 }
@@ -59,7 +62,27 @@ td.no-scale:hover {
     background: rgb(255, 190, 11, 0.8) !important;
 }
 
+/* 
+-- BUTTONS --
+*/
 
+button {
+    margin: 0 10px;
+    color: black !important;
+}
+
+#frameWork-btn {
+    background: #79C5D3 !important;
+    border-style: none;
+}
+#lang-btn {
+    background: #bce784 !important;
+    border-style: none;
+}
+#db-btn {
+    background: #ffbe0b !important;
+    border-style: none;
+}
 
 
 
