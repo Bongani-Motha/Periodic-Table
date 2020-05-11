@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/toggler.css">
-    <title>Document</title>
+    <title>Periodic Table of Technologies</title>
 </head>
 <body>
     <div class="container">
@@ -22,36 +22,12 @@
                 <td class="bg-info frameWork pt-4">Vue.js</td>
                 <td class="bg-info frameWork pt-4">Express.js</td>
                 <td colspan="6" class="no-scale">
-                    <!-- FRAMEWORKS TOGGLE-->
-                    <span class="toggler">
-                        <span>
-                            <label class="switch">
-                                <input class="switch-input frameWork" type="checkbox" />
-                                <span class="switch-label" data-on="On" data-off="framework"></span> 
-                                <span class="switch-handle"></span> 
-                            </label>
-                        </span>
-                    </span>
-                    <!-- LANGUAGES TOGGLE-->
-                    <span class="toggler">
-                        <span>
-                            <label class="switch">
-                                <input class="switch-input lang" type="checkbox" />
-                                <span class="switch-label" data-on="On" data-off="Languages"></span> 
-                                <span class="switch-handle"></span> 
-                            </label>
-                        </span>
-                    </span>
-                    <!-- DATABASES TOGGLE-->
-                    <span class="toggler">
-                        <span>
-                            <label class="switch">
-                                <input class="switch-input db" type="checkbox" />
-                                <span class="switch-label" data-on="On" data-off="DATABASES"></span> 
-                                <span class="switch-handle"></span> 
-                            </label>
-                        </span>
-                    </span>
+
+                    <!-- BUTTONS -->
+
+                   <button type="button" class="btn btn-primary" id="frameWork-btn">Frameworks</button>
+                   <button type="button" class="btn btn-success" id="lang-btn">Languages</button>
+                   <button type="button" class="btn btn-warning" id="db-btn">Databases</button>
                 </td>
                 <td class="bg-warning db pt-4">Elasticsearch</td>
                 <td class="bg-warning db pt-4">Firebase</td>
