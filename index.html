@@ -13,85 +13,85 @@
         <table class="table table-bordered">
             <!--FIRST ROW-->
             <tr>
-                <td class="bg-info frameWork pt-4 pt-">React.js</td>
+                <td class="bg-info frameWork pt-4" id="react">React.js</td>
                 <td colspan="8" class="no-scale"><h2>Periodic Table of Technologies</h2></td>
-                <td class="bg-warning db pt-4">Redis</td>
+                <td class="bg-warning db pt-4" id="redis">Redis</td>
             </tr>
             <!-- SECOND ROW -->
             <tr>
-                <td class="bg-info frameWork pt-4">Vue.js</td>
-                <td class="bg-info frameWork pt-4">Express.js</td>
+                <td class="bg-info frameWork pt-4" id="vue">Vue.js</td>
+                <td class="bg-info frameWork pt-4" id="express">Express.js</td>
                 <td colspan="6" class="no-scale">
 
                     <!-- BUTTONS -->
 
-                   <button type="button" class="btn btn-primary" id="frameWork-btn">Frameworks</button>
+                   <button type="button" class="btn btn-primary" id="frameWork-btn" onmouseenter="frameworks()" onmouseleave="frameworksRevert()">Frameworks</button>
                    <button type="button" class="btn btn-success" id="lang-btn">Languages</button>
                    <button type="button" class="btn btn-warning" id="db-btn">Databases</button>
                 </td>
-                <td class="bg-warning db pt-4">Elasticsearch</td>
-                <td class="bg-warning db pt-4">Firebase</td>
+                <td class="bg-warning db pt-4" id="elastic">Elasticsearch</td>
+                <td class="bg-warning db pt-4" id="firebase">Firebase</td>
             </tr>
             <!-- THIRD ROW -->
             <tr>
-                <td class="bg-info frameWork pt-4">Spring</td>
-                <td class="bg-info frameWork pt-4">ASP.NET</td>
-                <td class="bg-info frameWork pt-4">Django</td>
+                <td class="bg-info frameWork pt-4" id="spring">Spring</td>
+                <td class="bg-info frameWork pt-4" id="asp">ASP.NET</td>
+                <td class="bg-info frameWork pt-4" id="django">Django</td>
                 <td colspan="4" class="no-scale"></td>
-                <td class="lang pt-4">Rust</td>
-                <td class="bg-warning db pt-4">PostgreSQL</td>
-                <td class="bg-warning db pt-4">Mongodb</td>
+                <td class="lang pt-4" id="rust">Rust</td>
+                <td class="bg-warning db pt-4" id="postgre">PostgreSQL</td>
+                <td class="bg-warning db pt-4" id="mongo">Mongodb</td>
             </tr>
             <!-- FOURTH FOW -->
             <tr>
-                <td class="bg-info frameWork pt-4">Flask</td>
-                <td class="bg-info frameWork pt-4">Laravel</td>
-                <td class="lang pt-4">Python</td>
-                <td class="lang pt-4">TypeScript</td>
-                <td class="lang pt-4">Kotlin</td>
-                <td class="lang pt-4">WebAssembly</td>
-                <td class="lang pt-4">Swift</td>
-                <td class="lang pt-4">Clojure</td>
-                <td class="bg-warning db pt-4">Mariadb</td>
-                <td class="bg-warning db pt-4">MS SQL Server</td>
+                <td class="bg-info frameWork pt-4" id="flask">Flask</td>
+                <td class="bg-info frameWork pt-4" id="laravel">Laravel</td>
+                <td class="lang pt-4" id="python">Python</td>
+                <td class="lang pt-4" id="typeScript">TypeScript</td>
+                <td class="lang pt-4" id="kotlin">Kotlin</td>
+                <td class="lang pt-4" id="webAssembly">WebAssembly</td>
+                <td class="lang pt-4" id="swift">Swift</td>
+                <td class="lang pt-4" id="clojure">Clojure</td>
+                <td class="bg-warning db pt-4" id="maria">Mariadb</td>
+                <td class="bg-warning db pt-4" id="msSQL">MS SQL Server</td>
             </tr>
 
             <!-- 5TH ROW -->
             <tr>
-                <td class="bg-info frameWork pt-4">Angular</td>
-                <td class="bg-info frameWork pt-4">Ruby on Rails</td>
-                <td class="lang pt-4">Elixir</td>
-                <td class="lang pt-4">Go</td>
-                <td class="lang pt-4">C#</td>
-                <td class="lang pt-4">JavaScript</td>
-                <td class="lang pt-4">Dart</td>
-                <td class="bg-warning db pt-4">SQL</td>
-                <td class="bg-warning db pt-4">HTML/CSS</td>
-                <td class="bg-warning db pt-4">F#</td>
+                <td class="bg-info frameWork pt-4" id="angular">Angular</td>
+                <td class="bg-info frameWork pt-4" id="rubyOnRails">Ruby on Rails</td>
+                <td class="lang pt-4" id="elixir">Elixir</td>
+                <td class="lang pt-4" id="go">Go</td>
+                <td class="lang pt-4" id="c-sharp">C#</td>
+                <td class="lang pt-4" id="javaScript">JavaScript</td>
+                <td class="lang pt-4" id="dart">Dart</td>
+                <td class="lang pt-4" id="sql">SQL</td>
+                <td class="db pt-4" id="sqLite">SQLite</td> <!-- change here -->
+                <td class="bg-warning db pt-4" id="node">Node.js</td>
             </tr>
 
             <!-- 6TH ROW -->
             <tr>
-                <td class="bg-info frameWork pt-4">jQuery</td>
-                <td class="bg-info frameWork pt-4">Drumpal</td>
-                <td class="lang pt-4">Bash</td>
-                <td class="lang pt-4">Scala</td>
-                <td class="lang pt-4">Java</td>
-                <td class="lang pt-4">C++</td>
-                <td class="lang pt-4">R</td>
-                <td class="bg-warning db pt-4">SQLite</td>
-                <td class="bg-warning db pt-4">Dynamodb</td>
-                <td class="bg-warning db pt-4">MySQL</td>
+                <td class="bg-info frameWork pt-4" id="jquery">jQuery</td>
+                <td class="bg-info frameWork pt-4" id="drumpal">Drumpal</td>
+                <td class="lang pt-4" id="bash">Bash</td>
+                <td class="lang pt-4" id="scala">Scala</td>
+                <td class="lang pt-4" id="java">Java</td>
+                <td class="lang pt-4" id="c-plus-plus">C++</td>
+                <td class="lang pt-4" id="r">R</td>
+                <td class="lang pt-4" id="html-css">HTML/CSS</td> <!-- change here-->
+                <td class="bg-warning db pt-4" id="dynamo">Dynamodb</td>
+                <td class="bg-warning db pt-4" id="mySQL">MySQL</td>
             </tr>
 
             <!-- 7TH ROW -->
             <tr>
                 <td colspan="2" class="no-scale"></td>
-                <td class="lang pt-4">Ruby</td>
-                <td class="lang pt-4">Erlang</td>
-                <td class="lang pt-4">PHP</td>
-                <td class="lang pt-4">C</td>
-                <td class="lang pt-4">Assembly</td>
+                <td class="lang pt-4" id="ruby">Ruby</td>
+                <td class="lang pt-4" id="erlang">Erlang</td>
+                <td class="lang pt-4" id="php">PHP</td>
+                <td class="lang pt-4" id="c">C</td>
+                <td class="lang pt-4" id="assembly">Assembly</td>
             </tr>
         </table>
 
