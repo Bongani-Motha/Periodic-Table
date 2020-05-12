@@ -4,9 +4,12 @@
 #79C5D3 framework
 #bce784 language
 
-
-
 */
+
+.container {
+    background: #F3FCF0;
+}
+
 
 td {
     height: 5rem;
@@ -34,7 +37,7 @@ td.no-scale:hover {
 
 .table {
     display: table;
-    margin-top: 10rem;
+    margin-top: 1rem;
     border-collapse: separate;
     border-spacing: 5px;
     text-align: center;
