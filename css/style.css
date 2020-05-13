@@ -24,6 +24,7 @@ td:hover {
     transform: scale(1.7);
     font-size: medium;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 
@@ -33,6 +34,7 @@ td:hover {
 
 td.no-scale:hover {
     transform: none;
+    cursor: auto;
 }
 
 .table {
