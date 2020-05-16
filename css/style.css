@@ -18,6 +18,15 @@ body {
     height: 100%;
 }
 
+button.btn.modal-btn {
+    color: white;
+}
+.modal-btn {
+    background-color: rgb(153, 221, 43);
+    color: white;
+}
+
+
 h2 {
     color: white;
 }
