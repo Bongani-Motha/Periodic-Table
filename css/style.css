@@ -5,9 +5,21 @@
 #bce784 language
 
 */
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(1, 14, 1, 0.9), rgba(17, 17, 17, 0.9)),url(https://source.unsplash.com/iar-afB0QQw/1920x1280) /*http://abshidsmediablog.blogspot.com/2016/02/programming-101.html*/ ;
+    background-position: center;
+    background-size: cover;
+}
 
-.container {
-    background: rgb(7, 7, 7);
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    color: white;
 }
 
 
